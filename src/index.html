@@ -1,0 +1,45 @@
+<html>
+<head><title>Cadastro</title></head>
+<style type='text/css'>
+	center {
+		font-weight: 700;
+	}
+	
+	body {
+		background: url('/IMG/Logo_Python.png') no-repeat center;
+	}
+	table {
+ 		border: 1px solid #000; 
+ 		border-collapse: collapse;
+	}
+	table tr {
+ 		border: 1px solid #000; 
+ 		border-collapse: collapse;
+ 		background: #c4e1ff;	
+	}
+	table tr td {
+ 		border: 1px solid #000; 
+ 		border-collapse: collapse;	
+	}
+	
+</style>
+	<body>
+	<center>
+			<h1>Cadastro e Listagem</h1>
+				<form name="frm" method="post" action="/cgi-bin/Listar.py">
+				<center>
+					Nome:<input type="text" name="nome"/>
+				</center>
+				<center>
+					Email:<input type="text" name="email"/>
+				</center>
+					Telefone:<input type="text" name="telefone"/>
+				<center>
+					<input type="submit" name="cadastrar" value="Cadastrar"/>
+				</center>
+				<!-- test -->
+				</center>
+				</form>
+	</center>
+	</body>
+</html>
